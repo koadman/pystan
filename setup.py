@@ -110,7 +110,7 @@ stan_macros = [
     ('FUSION_MAX_VECTOR_SIZE', 12),  # for parser, stan-dev/pystan#222
 ]
 extra_compile_args = [
-    '-O0',
+    '-O2',
     '-ftemplate-depth-256',
     '-Wno-unused-function',
     '-Wno-uninitialized',
